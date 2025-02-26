@@ -1,9 +1,9 @@
 import Web3 from "web3";
 import BigNumber from "bignumber.js";
 
-const FTM_NODE_RPC = ["https://rpcapi.fantom.network"];
+const FTM_NODE_RPC = ["https://rpc.soniclabs.com"];
 
-const FTM_ARCHIVE_NODE_RPC = ["https://fantom.drpc.org"];
+const FTM_ARCHIVE_NODE_RPC = ["https://sonic.drpc.org"];
 
 export const getWeb3 = (archive = false): Web3 => {
   const provider: string = archive

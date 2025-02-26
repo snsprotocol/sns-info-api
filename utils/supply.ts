@@ -2,10 +2,10 @@ import BigNumber from "bignumber.js";
 import { getContract, getBalance } from "./web3";
 import erc20 from "./abis/erc20.json";
 
-const SNS = "0xD702993613686Ab0f706Ef07883870a97D36fdcf";
-const DAO_WALLET = "0x14943dD2180b657f7C5139c2C20E950fa1af4276";
-const ECOSYSTEM_WALLET = "0xD77431338B21CcBa8E568F97a74DA13107067222";
-const DEV_WALLET = "0x47a7E8b0816a089ad1493676073Bb8f7414d3380";
+const SNS = "0x7B0a41f0c17474e41a0c36c0Bf33b9AED06eE9f5";
+const DAO_WALLET = "0xCE36558B59DB0884EB001E26ea2d8b68c1A87552";
+const ECOSYSTEM_WALLET = "0x8FA959013eb350bF068Dfdccc4Cf7774976B9Ffc";
+const DEV_WALLET = "0x773fe1c97181262484319703373D81874560900e";
 
 const DaoTokens = getBalance(erc20, SNS, DAO_WALLET);
 const EcosystemTokens = getBalance(erc20, SNS, ECOSYSTEM_WALLET);
